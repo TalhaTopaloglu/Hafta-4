@@ -4,8 +4,8 @@ public class Game {
     private Scanner input = new Scanner(System.in);
     public void start(){
         System.out.println("Mecara Oyununa Hoşgeldiniz !");
-        // System.out.print("Lütfen Bir isim Giriniz : ");
-        // String playerName = input.nextLine();
+        System.out.print("Lütfen Bir isim Giriniz : ");
+        String playerName = input.nextLine();
         Player player = new Player("playerName");
         System.out.println("Sayın " + player.getName() + " bu karanlıık ve sisli adaya hoşgeldiniz.");
         System.out.println("Bu karanlık adada haytta kalmak tamamen senin elinde.");
